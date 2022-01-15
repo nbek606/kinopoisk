@@ -1,0 +1,47 @@
+@import '_variables';
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.float-left {
+   float: left !important;
+}
+
+.float-rigth {
+   float: right;
+}
+
+.text-danger {
+   color: $danger
+}
+
+.text-gray {
+   color: $dark-gray;
+}
+
+.font-weight {
+   font-weight: 600;
+}
+
+.text-link {
+   text-decoration: underline;
+   color: $dark-blue;
+   cursor: pointer;
+}
+
+.container {
+   width: 1000px;
+   margin: auto;
+}
+
+.age-gray {
+   color: $dark-gray;
+   border: 1px solid $dark-gray
+}
+
+.age-dark {
+   color: $dark;
+   border: 1px solid $dark
+}
